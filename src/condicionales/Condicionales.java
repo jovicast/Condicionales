@@ -10,7 +10,8 @@ import javax.swing.JOptionPane;
  *
  * @author LAB07
  */
-public class Condicionales {
+public class Condicionales 
+{
 
     /**
      * @param args the command line arguments
@@ -27,10 +28,8 @@ public class Condicionales {
         //Si la condicion se cumple se ejecuta este codigo
      JOptionPane.showMessageDialog(null, "Son Iguales");   
     }
-    else//Si no se cumple la condicion se ejecuta esto
-    {
-    JOptionPane.showMessageDialog(null, "Son Diferentes");
-    if(numero1 > numero2)
+     //Si la condicion se cumple se ejecuta este codigo
+     JOptionPane.showMessageDialog(null, "Son Iguales");   
     {
      JOptionPane.showMessageDialog(null, "Numero"+numero1+"  es mayor");  
     }
@@ -43,4 +42,4 @@ public class Condicionales {
     }
     
     
-}
+
